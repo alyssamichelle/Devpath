@@ -8,9 +8,12 @@ import { getGrowthBookBootstrap } from "@/lib/growthbook-server";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "DevPath — The fast path from tutorial to production",
+  title: "DevPossum — The fast path from tutorial to production",
   description:
     "Learn TypeScript, React, Node.js, Docker, SQL, and more through focused, practical courses built for working developers.",
+  icons: {
+    icon: "/devpossum-logo.png",
+  },
 };
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;

@@ -1,8 +1,8 @@
-# DevPath
+# DevPossum
 
 > The fast path from tutorial to production.
 
-![DevPath home page](./docs/screenshots/devpath-home.png)
+![DevPossum home page](./docs/screenshots/devpath-home.png)
 
 A developer education demo app built with **Next.js 16**, **GrowthBook**, **GA4**, and **BigQuery**. Designed to show how feature flags and A/B experiments work in a realistic SaaS context.
 
@@ -112,4 +112,4 @@ Visit `/demo` for the live control panel showing current flag states, active exp
 
 ## Design doc
 
-See [`canvases/devpath-demo-design.canvas.tsx`](./canvases/devpath-demo-design.canvas.tsx) for the full design specification including the app concept rationale, flag/experiment specs, event schema, UI flow, and demo script.
+See [`canvases/devpossum-demo-design.canvas.tsx`](./canvases/devpossum-demo-design.canvas.tsx) for the full design specification including the app concept rationale, flag/experiment specs, event schema, UI flow, and demo script.

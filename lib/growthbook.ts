@@ -1,5 +1,5 @@
 /**
- * GrowthBook configuration for DevPath (client side).
+ * GrowthBook configuration for DevPossum (client side).
  *
  * Evaluation model:
  *   - The client SDK is bootstrapped with a feature payload fetched on the

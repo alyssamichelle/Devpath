@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -16,7 +17,14 @@ export function Nav() {
     <header className="border-b border-zinc-800 bg-zinc-950">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-lg font-bold text-white">DevPath</span>
+          <Image
+            src="/devpossum-logo.png"
+            alt="DevPossum"
+            width={140}
+            height={40}
+            className="h-9 w-auto"
+            priority
+          />
           <span className="rounded bg-indigo-600 px-1.5 py-0.5 text-xs font-medium text-white">
             beta
           </span>

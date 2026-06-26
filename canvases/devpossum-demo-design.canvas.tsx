@@ -168,9 +168,9 @@ const DEMO_STEPS = [
     step: 1,
     title: "Set the scene",
     tool: "Browser",
-    action: "Open the DevPath home page at /",
+    action: "Open the DevPossum home page at /",
     quote:
-      "This is DevPath — a fictional developer learning platform. Simple by design. But every flag and experiment is wired to real GrowthBook and GA4 calls.",
+      "This is DevPossum — a fictional developer learning platform. Simple by design. But every flag and experiment is wired to real GrowthBook and GA4 calls.",
   },
   {
     step: 2,
@@ -211,7 +211,7 @@ function OverviewTab() {
   return (
     <Stack gap={28}>
       <Stack gap={6}>
-        <H2>DevPath</H2>
+        <H2>DevPossum</H2>
         <Text tone="secondary">A fictional developer learning platform — your demo vehicle for GrowthBook, GA4, and BigQuery</Text>
       </Stack>
 
@@ -536,7 +536,7 @@ function ScriptTab() {
   );
 }
 
-export default function DevPathDemoDesign() {
+export default function DevPossumDemoDesign() {
   const [activeTab, setActiveTab] = useCanvasState<Tab>("activeTab", "overview");
 
   const renderTab = () => {
@@ -560,7 +560,7 @@ export default function DevPathDemoDesign() {
     <Stack gap={24} style={{ padding: 24, maxWidth: 920 }}>
       <Stack gap={4}>
         <Row gap={10} align="center">
-          <H1>DevPath — Demo App Design</H1>
+          <H1>DevPossum — Demo App Design</H1>
           <Pill tone="info">GrowthBook + GA4 + BigQuery</Pill>
         </Row>
         <Text tone="secondary">Developer education demo · Next.js · Feature flags + Experimentation + Analytics</Text>
