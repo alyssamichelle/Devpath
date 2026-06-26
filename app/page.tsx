@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useExperiment, useFeatureIsOn } from "@growthbook/growthbook-react";
 import { COURSES } from "@/lib/data";
@@ -30,6 +31,16 @@ export default function HomePage() {
             Join 50,000 developers learning this week
           </div>
         )}
+
+        <Image
+          src="/devpossum-logo.png"
+          alt=""
+          width={524}
+          height={524}
+          className="mx-auto mb-8 h-56 w-56 sm:h-64 sm:w-64"
+          priority
+          unoptimized
+        />
 
         <h1 className="text-5xl font-bold tracking-tight text-white sm:text-6xl">
           The fast path from{" "}

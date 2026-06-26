@@ -4,6 +4,16 @@
   --color-background: #09090b;
   --font-sans: ui-sans-serif, system-ui, sans-serif;
   --font-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, monospace;
+
+  /* DevPossum text-logo purple (#7858d8 / rgb 120 88 216) */
+  --color-indigo-300: #bcacec;
+  --color-indigo-400: #9e87e3;
+  --color-indigo-500: #886cdd;
+  --color-indigo-600: #7858d8;
+  --color-indigo-700: #664bb8;
+  --color-indigo-800: #563f9c;
+  --color-indigo-900: #46337d;
+  --color-indigo-950: #32255b;
 }
 
 * {

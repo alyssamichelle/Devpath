@@ -18,16 +18,13 @@ export function Nav() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/devpossum-logo.png"
+            src="/devpossum-text-logo.png"
             alt="DevPossum"
             width={140}
             height={40}
             className="h-9 w-auto"
-            priority
+            unoptimized
           />
-          <span className="rounded bg-indigo-600 px-1.5 py-0.5 text-xs font-medium text-white">
-            beta
-          </span>
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex">
