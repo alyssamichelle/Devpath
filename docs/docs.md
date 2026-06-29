@@ -36,11 +36,11 @@ Middleware/proxy **cannot render UI** — it runs on the Edge and can only rewri
 
 `hero-cta-text` is a 3-way experiment on the primary CTA. Exposure fires the moment the component assigns a variant (via `trackingCallback`), **not** when the user clicks — so non-clickers stay in the denominator.
 
-![DevPossum home, control variant](./screenshots/devpath-home.png)
+![DevPossum home, control variant](./screenshots/devpossum-home.png)
 
 The `social-proof-widget` flag adds a credibility badge to the hero. Here it is forced on with `/?ff=social-proof-widget`:
 
-![DevPossum home with the social proof badge](./screenshots/devpath-home-socialproof.png)
+![DevPossum home with the social proof badge](./screenshots/devpossum-home-socialproof.png)
 
 ### 2. Courses — a flag that changes content live
 
@@ -48,19 +48,19 @@ The `social-proof-widget` flag adds a credibility badge to the hero. Here it is 
 
 | Off (default) | On (`?ff=ai-course-recommendations`) |
 |---|---|
-| ![Courses, popularity sort](./screenshots/devpath-courses.png) | ![Courses, AI recommendations](./screenshots/devpath-courses-ai.png) |
+| ![Courses, popularity sort](./screenshots/devpossum-courses.png) | ![Courses, AI recommendations](./screenshots/devpossum-courses-ai.png) |
 
 ### 3. Lesson player — two flags at once
 
 A Pro lesson with both `pro-upsell-banner` and `beta-code-playground` forced on (`?ff=beta-code-playground,pro-upsell-banner`). The upsell button fires GA4's recommended `begin_checkout` event.
 
-![Lesson player with upsell banner and code playground](./screenshots/devpath-lesson-playground.png)
+![Lesson player with upsell banner and code playground](./screenshots/devpossum-lesson-playground.png)
 
 ### 4. Pricing — an experiment + ecommerce events
 
 `pricing-plan-highlight` decides whether Pro gets the "Most Popular" treatment. Bucketing is done client-side by the anon id, so it's stable per visitor even without the server experiment definition. Selecting a plan fires `begin_checkout`; a confirmed subscription fires `purchase`.
 
-![Pricing page, Pro highlighted variant](./screenshots/devpath-pricing.png)
+![Pricing page, Pro highlighted variant](./screenshots/devpossum-pricing.png)
 
 ### 5. Dashboard — the rollback story
 
@@ -68,13 +68,13 @@ A Pro lesson with both `pro-upsell-banner` and `beta-code-playground` forced on 
 
 | Classic (default) | New layout (`?ff=new-dashboard-layout`) |
 |---|---|
-| ![Classic dashboard](./screenshots/devpath-dashboard-classic.png) | ![New dashboard with XP and streaks](./screenshots/devpath-dashboard-new.png) |
+| ![Classic dashboard](./screenshots/devpossum-dashboard-classic.png) | ![New dashboard with XP and streaks](./screenshots/devpossum-dashboard-new.png) |
 
 ### 6. Demo control panel — `/demo`
 
 A live view of every flag state, the current experiment assignment per experiment, and copy-pasteable BigQuery queries.
 
-![Demo control panel](./screenshots/devpath-demo-panel.png)
+![Demo control panel](./screenshots/devpossum-demo-panel.png)
 
 ---
 
